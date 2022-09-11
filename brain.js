@@ -10,9 +10,10 @@ document.getElementById("btn").addEventListener("click", bgcolor)
 bgcolor(); */
 
 function bgcolor(){
-    var random = "ABCDEF0123456789";
+    var random = "ABCDEF0123456789"; //The variables present in a hexadecimal string
     var randomcode = "#";
 
+    //This for loop creates a random hexadecimal string
     for(var i = 0; i <6 ; i++) {
         randomcode += random[Math.floor(Math.random()*16)];
     }
@@ -21,7 +22,5 @@ function bgcolor(){
     document.getElementById("colorcode").innerText = randomcode;
 
 }
-
-
 
 bgcolor();
