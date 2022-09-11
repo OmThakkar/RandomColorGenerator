@@ -14,11 +14,9 @@ body{
     background-color: white;
     border-radius: 10px;
     display: flex;
-    align-content: center;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin: 10% 30%;
+    margin: 5% 30%;
     padding: 20px 0px;
 }
 
